@@ -19,3 +19,10 @@ Then(/^Navigate to SignUp page$/, () => {
 Then(/^create an account with random username$/, () => {
 	
 });
+
+
+When(/^verify the page title "([^"]*)" of the webpage$/, (args1) => {
+	console.log(args1);
+	return true;
+});
+

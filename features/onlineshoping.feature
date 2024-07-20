@@ -4,3 +4,4 @@ Feature: SignUp, SignIn and Purchase the Product
     Given I am on the home page
     Then Navigate to SignUp page
     And create an account with random username
+    And verify the page title "dash board" of the webpage
